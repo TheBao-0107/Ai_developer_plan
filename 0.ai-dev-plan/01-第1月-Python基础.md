@@ -17,7 +17,7 @@
    git config --global user.name "你的名字"
    git config --global user.email "你的邮箱"
    ```
-4. 注册 **GitHub** 账号，新建一个仓库 `python-learning`，以后的练习都放在这里
+4. 注册 **GitHub** 账号。~~新建一个仓库 `python-learning`~~ 已改为：练习统一放在本项目的 `1.python_learning/` 目录，跟着本项目一起推送到 GitHub
 5. （可选）安装 **uv**，一个现代的 Python 包管理工具。第 2 个月才会用到，现在装好也可以
 
 ---
