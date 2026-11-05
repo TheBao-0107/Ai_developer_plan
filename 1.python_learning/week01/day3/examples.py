@@ -74,7 +74,7 @@ print(TravelPlaceList)
 
 #[]访问列表元素
 #.append()方法，在末尾添加元素
-#.insert(index,x)方法，在index下标处插入元素x，默认缺省index = 0
+#.insert(index,x)方法，在index下标处插入元素x，必须传入下标index和值x
 #del list[index]语句，在list中删除index下标处的元素，这个要注意一下写法，没有括号，是个“语句”，语句的概念可以研究一下
 #.pop()方法，删除列表最后一个元素，返回值是被删除的值
 #.remove(x)方法，删除列表中第一个元素x
