@@ -27,3 +27,13 @@ sorted_copy_list = sorted(example_list)
 print(sorted_copy_list)
 print(example_list)
 
+#本周总结练习
+tag_list = [" INFO ", " Error ", " debug "]
+new_tag_list = tag_list[:]
+for index in range(len(new_tag_list)):
+    new_tag_list[index] = new_tag_list[index].strip()
+    new_tag_list[index] = new_tag_list[index].lower()
+print(f"原始标签：{tag_list}")
+print("规范标签：")
+for tag in new_tag_list:
+    print(tag)
