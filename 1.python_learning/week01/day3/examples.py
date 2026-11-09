@@ -78,7 +78,7 @@ print(TravelPlaceList)
 #del list[index]语句，在list中删除index下标处的元素，这个要注意一下写法，没有括号，是个“语句”，语句的概念可以研究一下
 #.pop()方法，删除列表最后一个元素，返回值是被删除的值
 #.remove(x)方法，删除列表中第一个元素x
-#.sort(reverse)方法，快排。reverse = True的时候逆序
-#sorted(list,reverse)函数，快排list，reverse = True的时候逆序
+#.sort(reverse)方法，排序。reverse = True的时候逆序
+#sorted(list,reverse)函数，排序list，reverse = True的时候逆序
 #.reverse()方法,倒转列表，没有返回值
 #len(list)函数，取列表list的长度
