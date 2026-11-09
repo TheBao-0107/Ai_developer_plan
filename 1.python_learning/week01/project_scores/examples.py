@@ -1,6 +1,6 @@
 example_list = ["car_brand","food_brand","clothes_brand"]
-for kindName in example_list:
-    print(f"{kindName.removesuffix("_brand")}")
+for kind_name in example_list:
+    print(f"{kind_name.removesuffix("_brand")}")
 x,y,z = 0,0,0
 
 CONST_NUM = 1
