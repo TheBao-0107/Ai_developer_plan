@@ -4,14 +4,14 @@
 log_list = [" ERROR ", "Info", " warning ", "debug"]
 copy_log_list = log_list[:]
 for index in range(len(copy_log_list)):
-   copy_log_list[index] = copy_log_list[index].strip().lower()
+    copy_log_list[index] = copy_log_list[index].strip().lower()
 print(f"原始：{log_list}")
 print(f"清理后：{copy_log_list}")
 
-need_process_log_list = ["error","warning"]
+need_process_log_list = ["error", "warning"]
 for log in copy_log_list:
-    print(log,end="")
+    print(log, end="")
     if log in need_process_log_list:
-      print("：需要处理")
+        print("：需要处理")
     else:
-      print("：无需处理")
+        print("：无需处理")
