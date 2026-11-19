@@ -9,7 +9,7 @@ while flag:
     if select_num == "1":
         ledger = {"amount": 0, "category": "", "note": "", "date": ""}
         amount_str = input("请输入金额（正整数）:\n")
-        if not amount_str.isdecimal() or amount_str == "0":
+        if not amount_str.isdecimal() or int(amount_str) == 0:
             print("金额无效")
             continue
         ledger["amount"] = int(amount_str)
