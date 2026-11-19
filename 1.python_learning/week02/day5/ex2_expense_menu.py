@@ -5,12 +5,12 @@ able_select_num_list = ["1", "2", "0"]
 sum_money = 0
 while flag:
     print("1. 记一笔 | 2. 查看累计 | 0. 退出")
-    select_num = input("请选择：")
+    select_num = input("请选择：\n")
     if select_num not in able_select_num_list:
         print("无效选项")
         continue
     elif select_num == "1":
-        money = int(input("请输入金额（正整数）："))
+        money = int(input("请输入金额（正整数）：\n"))
         sum_money += money
         print("已记录")
     elif select_num == "2":
