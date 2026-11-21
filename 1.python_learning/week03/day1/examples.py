@@ -30,9 +30,9 @@ def describe_city(city="Shanghai", country="China"):
     print(f"{city} is in {country}")
 
 
-describe_city("shanghai")
+describe_city("shanghai")#形参city的值是shanghai，形参country的值是默认缺省值China
 describe_city(city="Boston", country="The USA")
-describe_city("London", "The UK")
+describe_city("London", "The UK")#形参city的值是London，形参country的值是The UK
 
 
 def city_country(city, country):
