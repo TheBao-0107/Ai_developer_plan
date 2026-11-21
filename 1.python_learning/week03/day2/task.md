@@ -67,14 +67,17 @@ print(book_alarm("408"))
 **我的答案：**
 
 ```text
+['301']
+['205']
+['301', '408']
 第一次和第三次调用了同一个列表，第二次调用不会影响第三行，我会放到函数内部，而不是给参数默认缺省值。
 ```
 
 - 理由和修改思路：每次都新建一个新的变量，就不会有指向同一个变量的风险了
 
   ```python
-  def book_alarm(room, rooms):
-      if not rooms:
+  def book_alarm(room, rooms=['empty']):
+      if 'empty' in rooms:
           rooms = []
       rooms.append(room)
       return rooms

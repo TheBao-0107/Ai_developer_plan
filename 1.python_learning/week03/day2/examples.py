@@ -17,7 +17,7 @@ def send_messages(original_list, sent_messages_list):
     """将原始列表中的消息全部挪到sent_messages_list中并打印"""
     while original_list:
         message = original_list.pop()
-        sent_messages.append(message)
+        sent_messages_list.append(message)
         print(message)
 
 
