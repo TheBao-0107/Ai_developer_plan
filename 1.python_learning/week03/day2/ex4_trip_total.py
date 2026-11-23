@@ -7,7 +7,7 @@ def trip_total(*current_money, **extra_money_info):
         extra_money_info["current_trip_money"] = (
             extra_money_info.get("current_trip_money", 0) + money
         )
-    for k, v in extra_money_info.items():
+    for v in extra_money_info.values():
         sum_money += v
     return sum_money
 

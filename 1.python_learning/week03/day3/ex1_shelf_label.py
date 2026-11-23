@@ -4,4 +4,5 @@ def tag_label(cabinet,tool):
     '''返回标签字符串'''
     return f"{cabinet} 格 · {tool}"
 
-print(tag_label('A2','卷尺'))
+if __name__ == '__main__':
+    print(tag_label('A2','卷尺'))
